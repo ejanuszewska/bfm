@@ -1,0 +1,332 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-05-16, 14:42:12
+    Author     : Ewa
+*/
+
+
+
+html, body{
+    padding: 0 !important;
+      margin: 0 !important;
+        overflow: hidden;
+        width: 100%;
+}
+.section{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.slide1{
+    background-image: url("img/1.png");
+ 
+    background-repeat: no-repeat;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    background-size:cover;
+    background-position:center;
+    height: 100%;
+}
+
+
+.slide2{
+    background-image: url("img/3.jpg");
+ 
+    background-repeat: no-repeat;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    background-size:cover;
+    background-position:center;
+    height: 100%;
+}
+.navv{
+    background-color: WHITE;
+}
+.slide4{
+    background-image: url("img/4.jpg");
+ 
+    background-repeat: no-repeat;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    background-size:cover;
+    background-position:center;
+    height: 100%;
+}
+.slide3{
+    background-image: url("img/2.jpg");
+ 
+    background-repeat: no-repeat;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    background-size:cover;
+    background-position:center;
+    height: 100%;
+}
+
+.fp-tableCell{
+      padding: 0 !important;
+    margin: 0 !important;
+}
+
+#section0{
+    background-image: url("img/tlo2.png");
+  
+    background-repeat: no-repeat;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    background-size:cover;
+    background-position:center;
+    
+}
+
+#fullpage{
+    margin: 0 !important;
+    padding: 0 !important;
+   
+} 
+.section{
+      margin: 0 !important;
+    padding: 0 !important;
+}
+.fp-section{
+  margin: 0 !important;
+    padding: 0 !important;  
+}
+.fp-completely {
+    margin: 0 !important;
+    padding: 0 !important;   
+}
+.fp-table{
+   margin: 0 !important;
+    padding: 0 !important;  
+}
+#section2{
+      margin: 0 !important;
+    padding: 0 !important;
+}
+
+.fullpage-wrapper{
+    margin: 0 !important;
+    padding: 0 !important;
+    
+    max-width:100%;
+}
+.navbar-brand_ img {
+	max-width: 100%;
+}
+.navbar-brand_a:hover {
+	text-decoration: none;
+}
+
+#icons img{
+ max-width:180px;
+}
+/* tell the container's children to float left: */
+.float-my-children > img {
+    float:left;
+    margin-right:5px;
+}
+
+.section{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+        
+
+}
+
+.row{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 960px !important;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+
+/* this is called a clearfix. it makes sure that the container's children floats are cleared, without using extra markup */
+
+.clearfix {
+    *zoom:1 /* for IE */
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* end clearfix*/
+
+/* below is just to make things easier to see, not required */
+
+
+.nav{
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    z-index:99;
+    width:100%;
+     background-color: rgba(255,255,255,0.5);
+}
+#menu{
+   float: right;
+    z-index:99;
+ 
+  
+ 
+}
+
+.float-my-children > img{
+    display:inline;
+}
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+} 
+
+#menu li {
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+}
+#menu li a {
+    color: black;
+    text-decoration: none;
+}
+#menu2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+} 
+
+#menu2 li {
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+}
+#menu2 li a {
+    color: black;
+    text-decoration: none;
+}
+.navbar{
+    background: none !important;
+    border:none;
+    
+}
+
+.navbar > ul > li{
+    display: inline-block;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+background: none !important;
+color:white;
+}
+
+
+header{
+    margin-top:10px;
+    margin-left:30px;
+    margin-right:30px;
+    
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 16px;
+}
+
+.buy{
+    color: red !important;
+
+}
+.nap > div > img{
+  float: right;
+
+  
+}
+.zeg > div > img{
+  max-height: 400px;  
+
+  
+}
+
+
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+   
+}
+
+.container .im{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.fp-viewing-3rdPage{
+     padding: 0 !important;
+    margin: 0 !important;
+}
+    
+
+
+@media (max-width: 991px){
+
+.vcenter {
+    width: 50%;
+	 float: left;
+}
+.cap {
+    width: 50%;
+    float: left;
+}
+}
+
+@media (max-width: 480px){
+.vcenter {
+    width: 100%;
+    float: none;
+}
+.navbar-default {
+    padding: 1em 0 0 0;
+}
+.vcenter > div >img {
+ 
+    margin: 0 auto;
+    max-height: 600px;
+    width: 100%;
+}
+.cap {
+    width: 100%;
+	margin-bottom: 2em;
+}
+
+.float-my-children{
+    float:none;
+}
+.ssss{
+    width:100%;
+}
+}
